@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body
+{
+    background: #DCDDDE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background: fff;
+    margin: 25px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.container .left_Side
+{
+    position: relative;
+    background: #fff;
+    align-items: center;
+    padding: 40px;
+    border-right: 1px solid #DCDDDE
+}
+
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.profileText .imgBx
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileText .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileText h2
+{
+    color: #1B75BC;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.profileText h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.info
+{
+    position: relative;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.title
+{
+    color: #1B75BC;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #1B75BC
+}
+
+.title2
+{
+    color: #1B75BC;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700;
+    padding-bottom: 15px;
+    width: 100%; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+
+.title2 h2 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.info ul
+{
+    padding-top: 10px;
+    position: relative;
+}
+
+.info ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 0.75em;
+    font-weight: 300;
+}
+
+.skills
+{
+    position: relative;
+    width: 100%;
+    height: 15px;
+    background: #fff;
+    display: block;
+    margin-top: 5px;
+    border-bottom: 1px solid #1B75BC;
+    border-right: 1px solid #1B75BC;
+    border-top: 1px solid #1B75BC;
+    padding-bottom: 15px;
+}
+
+.skills div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #1B75BC;
+}
+
+.skillsText
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 300;
+    color: #1B75BC;
+}
+
+.container .right_Side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.info2 ul li
+{
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 0.75em;
+    font-weight: 300;
+}
+
+.info2 ul h2
+{
+    font-size: 0.9em;
+    margin-top: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.info2 ul h2 span
+{
+    font-size: 0.8em;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: uppercase;
+}
